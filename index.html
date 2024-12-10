@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myOutput {
+            cursor: pointer;
+        }
+        .slide{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 2px;
+            color: #fff;
+            font-size: 80px;
+            text-align: center;
+            align-content: center;
+            display: none;
+        }
+        .active{
+            display: block !important;
+        }
+        .append_parent{
+            background-color: cadetblue;
+        }
+        .text-white{
+            color: white;
+        }
+        li{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="sliders-cont d-flex justify-content-center" id="sliders-cont">
+        <div class="slide  active">1</div>
+        <div class="slide ">2</div>
+        <div class="slide">3</div>
+        <div class="slide">4</div>
+        <div class="slide">5</div>
+    </div>
+    <div class="d-flex justify-content-around mt-3">
+        <button class="btn btn-dark" id="prev_btn">Prev</button>
+        <button class="btn btn-dark " id="next_btn">Next</button>
+    </div>
+    <div class="active text">
+        hello world
+    </div>
+
+    <div class="append_parent">
+        <h1>
+            hello
+        </h1>
+
+        <h1 id="custom_h1">
+            hello world
+        </h1>
+    </div>
+    <button id="append">append</button> -->
+
+    <div id="toDoList">
+        <h1>Today Tasks</h1>
+        <ul class="to-do-list">
+            <li id="task-1"><h2>Task 1</h2></li>
+            <li id="task-2"><h2>Task 2</h2></li>
+            <li id="task-3"><h2>Task 3</h2></li>
+        </ul>
+        <div class="d-flex">
+            <input type="text" id="task-input" placeholder="type task title">
+            <button id="add-task-btn">Add Task</button>
+        </div>
+    </div>
+    <script src="js/custom.js"></script>
+</body>
+</html>
